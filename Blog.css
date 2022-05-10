@@ -1,0 +1,27 @@
+.blog{
+    background-color:aliceblue;
+    padding: 10px;
+    margin: 5px;
+}
+.blog h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.blog p{
+    padding: 10px;
+}
+.btn{
+    margin: 10px;
+}
+button{
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    height: 30px;
+    margin: 10px;
+    width: 90px;
+}
+button:hover{
+    color: red;
+    cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.myintro h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.myintro p{
+    margin: 20px;
+}
+.myintro{
+    padding-left: 20px;
+}

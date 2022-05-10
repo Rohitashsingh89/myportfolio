@@ -1,0 +1,10 @@
+.Services{
+    display: flex;
+}
+.aboutservices p{
+    margin: 20px;
+}
+.aboutservices h1{
+    text-align: center;
+    text-decoration: underline;
+}
