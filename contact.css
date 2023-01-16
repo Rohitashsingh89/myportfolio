@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+header{
+    height: 10vh;
+    background-color: rgb(115, 238, 115);
+    padding: 20px;
+    border-radius: 7px 7px 0 0px;
+}
+body{
+    height: 90vh;
+    width: 70vw;
+    margin: auto;
+}
+.container{
+/*      height: 100vh; */
+     width: 70vw;
+     background-color:aliceblue;
+}
+
+.main{
+    margin: 30px;
+    padding: 10px;
+}
+#name{
+    margin: 2px;
+    width: 90%;
+    height: 20px;
+}
+#email{
+    margin: 2px;
+    width: 90%;
+    height: 20px;
+}
+#message{
+    margin: 2px;
+    width: 90%;
+    height: 10vh;
+}
+#subject {
+    /* margin: 20px; */
+    width: 90%;
+    height: 20px;
+}
+input[type="submit"]{
+    margin: 2px;
+}
+#submit{
+    color: white;
+    background-color: blue;
+    width: 60px;
+    height: 25px;
+    border-radius: 3px;
+}
