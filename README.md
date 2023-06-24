@@ -7,11 +7,17 @@ https://cheerful-platypus-57f55d.netlify.app/index.html
 - HTML
 - CSS
 # ScreenShot
-![image](https://user-images.githubusercontent.com/93479842/213842675-e3239d86-f9a7-42a7-8fd0-72b3db95ce75.png)
+# HOME
+![image](https://github.com/Rohitashsingh89/myportfolio/assets/93479842/c79a45a6-587a-4e88-9ec6-e5a463d8fcc8)
+# My Introduction 
+![image](https://github.com/Rohitashsingh89/myportfolio/assets/93479842/6b566051-23fa-4bf1-a0f2-464fc8cf71de)
+# Our services 
+![image](https://github.com/Rohitashsingh89/myportfolio/assets/93479842/3909743b-9143-4bac-bbe2-70f67336c1c8)
 
 ## blog page
-![image](https://user-images.githubusercontent.com/93479842/213843610-666a7900-a354-4847-b641-51cd774a6c76.png)
-![image](https://user-images.githubusercontent.com/93479842/213843615-ec3c1150-da16-4372-8f3d-0e1b7a961fbd.png)
+![image](https://github.com/Rohitashsingh89/myportfolio/assets/93479842/741e3d81-65d6-4878-965b-1638c302c345)
+
+![image](https://github.com/Rohitashsingh89/myportfolio/assets/93479842/b41a612b-0a42-47d3-9282-f806bfd8a4ff)
 
 ## contact page
-![image](https://user-images.githubusercontent.com/93479842/213843595-376f20e3-5e31-4aff-8461-de359d4c4d5c.png)
+![image](https://github.com/Rohitashsingh89/myportfolio/assets/93479842/aec06f7d-9092-40a9-bf28-bd9d6c52d8ad)
