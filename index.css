@@ -3,11 +3,15 @@
     padding: 0;
 }
 .container{
-    display: flex;
-    
+    display: flex;  
+}
+.main{
+    width: 80%;
+    margin: auto;    
 }
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: aliceblue;
 }
 .sidebar{
     background-color:slategray;
@@ -61,6 +65,7 @@ li{
 }
 .about p{
     margin: 20px;
+    text-align: justify;
 }
 .about img{
     margin-top: 50px;
@@ -85,4 +90,12 @@ button:hover{
 }
 .container1{
     display: flex;
+}
+
+@media screen and (max-width: 400px ) {
+    .container {
+        width: 100%;
+        margin: 0px;
+    }
+    
 }
