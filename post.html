@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
+
 <body>
 
     <div class="container">
@@ -29,444 +31,90 @@
         </div>
         <div class="hamburger">
             <img class="menu" src="/Media/Menu Icon.png" alt="This is menu icon" height="10px">
-                
+
             <div class="cross fa fa-close" alt="This is cross icon image" height="10px"> </div>
         </div>
         <div class="myintro">
             <h1>Introduction to python</h1>
             <div class="maincontainer">
-            <div class="container"> 
-                    <article> <p>
-              Python Tutorial | Python Programming Language
-Python
-Python tutorial provides basic and advanced concepts of Python. Our Python tutorial is designed for beginners and professionals.
-
-Python is a simple, general purpose, high level, and object-oriented programming language.
-
-Python is an interpreted scripting language also. Guido Van Rossum is known as the founder of Python programming.
-
-Our Python tutorial includes all topics of Python Programming such as installation, control statements, Strings, Lists, Tuples, Dictionary, Modules, Exceptions, Date and Time, File I/O, Programs, etc. There are also given Python interview questions to help you better understand Python Programming.
-Play Video
-
-What is Python
-Python is a general purpose, dynamic, high-level, and interpreted programming language. It supports Object Oriented programming approach to develop applications. It is simple and easy to learn and provides lots of high-level data structures.
-
-Python is easy to learn yet powerful and versatile scripting language, which makes it attractive for Application Development.
-
-Python's syntax and dynamic typing with its interpreted nature make it an ideal language for scripting and rapid application development.
-
-Python supports multiple programming pattern, including object-oriented, imperative, and functional or procedural programming styles.
-
-Python is not intended to work in a particular area, such as web programming. That is why it is known as multipurpose programming language because it can be used with web, enterprise, 3D CAD, etc.
-
-We don't need to use data types to declare variable because it is dynamically typed so we can write a=10 to assign an integer value in an integer variable.
-
-Python makes the development and debugging fast because there is no compilation step included in Python development, and edit-test-debug cycle is very fast.
-
-Python 2 vs. Python 3
-In most of the programming languages, whenever a new version releases, it supports the features and syntax of the existing version of the language, therefore, it is easier for the projects to switch in the newer version. However, in the case of Python, the two versions Python 2 and Python 3 are very much different from each other.
-
-
-A list of differences between Python 2 and Python 3 are given below:
-
-Python 2 uses print as a statement and used as print "something" to print some string on the console. On the other hand, Python 3 uses print as a function and used as print("something") to print something on the console.
-Python 2 uses the function raw_input() to accept the user's input. It returns the string representing the value, which is typed by the user. To convert it into the integer, we need to use the int() function in Python. On the other hand, Python 3 uses input() function which automatically interpreted the type of input entered by the user. However, we can cast this value to any type by using primitive functions (int(), str(), etc.).
-In Python 2, the implicit string type is ASCII, whereas, in Python 3, the implicit string type is Unicode.
-Python 3 doesn't contain the xrange() function of Python 2. The xrange() is the variant of range() function which returns a xrange object that works similar to Java iterator. The range() returns a list for example the function range(0,3) contains 0, 1, 2.
-There is also a small change made in Exception handling in Python 3. It defines a keyword as which is necessary to be used. We will discuss it in Exception handling section of Python programming tutorial.
-Java vs Python Program
-Unlike the other programming languages, Python provides the facility to execute the code using few lines. For example - Suppose we want to print the "Hello World" program in Java; it will take three lines to print it.
-
-Java Program
-public class HelloWorld {  
- public static void main(String[] args){  
-// Prints "Hello, World" to the terminal window.  
-  System.out.println("Hello World");  
- }  
- }  
-Python Program
-On the other hand, we can do this using one statement in Python.
-
-print("Hello World")
-Both programs will print the same result, but it takes only one statement without using a semicolon or curly braces in Python.
-
-Python Basic Syntax
-There is no use of curly braces or semicolon in Python programming language. It is English-like language. But Python uses the indentation to define a block of code. Indentation is nothing but adding whitespace before the statement when it is needed. For example -
-
-
-def func():  
-       statement 1  
-       statement 2  
-       …………………  
-       …………………  
-         statement N  
-In the above example, the statements that are same level to right belong to the function. Generally, we can use four whitespaces to define indentation.
-
-Python History
-Python was invented by Guido van Rossum in 1991 at CWI in Netherland. The idea of Python programming language has taken from the ABC programming language or we can say that ABC is a predecessor of Python language.
-
-There is also a fact behind the choosing name Python. Guido van Rossum was a fan of the popular BBC comedy show of that time, "Monty Python's Flying Circus". So he decided to pick the name Python for his newly created programming language.
-
-
-Python has the vast community across the world and releases its version within the short period.
-
-Why learn Python?
-Python provides many useful features to the programmer. These features make it most popular and widely used language. We have listed below few-essential feature of Python.
-
-Easy to use and Learn
-Expressive Language
-Interpreted Language
-Object-Oriented Language
-Open Source Language
-Extensible
-Learn Standard Library
-GUI Programming Support
-Integrated
-Embeddable
-Dynamic Memory Allocation
-Wide Range of Libraries and Frameworks
-Where is Python used?
-Python is a general-purpose, popular programming language and it is used in almost every technical field. The various areas of Python use are given below.
-
-Data Science
-Date Mining
-Desktop Applications
-Console-based Applications
-Mobile Applications
-Software Development
-Artificial Intelligence
-Web Applications
-Enterprise Applications
-3D CAD Applications
-Machine Learning
-Computer Vision or Image Processing Applications.
-Speech Recognitions
-Python Popular Frameworks and Libraries
-Python has wide range of libraries and frameworks widely used in various fields such as machine learning, artificial intelligence, web applications, etc. We define some popular frameworks and libraries of Python as follows.
-
-Web development (Server-side) - Django Flask, Pyramid, CherryPy
-GUIs based applications - Tk, PyGTK, PyQt, PyJs, etc.
-Machine Learning - TensorFlow, PyTorch, Scikit-learn, Matplotlib, Scipy, etc.
-Mathematics - Numpy, Pandas, etc.
-Python print() Function
-The print() function displays the given object to the standard output device (screen) or to the text stream file.
-
-Unlike the other programming languages, Python print() function is most unique and versatile function.
-
-The syntax of print() function is given below.
-
-print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)  
-Let's explain its parameters one by one.
-
-objects - An object is nothing but a statement that to be printed. The * sign represents that there can be multiple statements.
-sep - The sep parameter separates the print values. Default values is ' '.
-end - The end is printed at last in the statement.
-file - It must be an object with a write(string) method.
-flush - The stream or file is forcibly flushed if it is true. By default, its value is false.
-Let's understand the following example.
-
-
-Example - 1: Return a value
-print("Welcome to javaTpoint.")  
-  
-a = 10  
-# Two objects are passed in print() function  
-print("a =", a)  
-  
-b = a  
-# Three objects are passed in print function  
-print('a =', a, '= b')  
-Output:
-
-Welcome to javaTpoint.
-a = 10
-a = 10 = b
-As we can see in the above output, the multiple objects can be printed in the single print() statement. We just need to use comma (,) to separate with each other.
-
-Example - 2: Using sep and end argument
-a = 10  
-print("a =", a, sep='dddd', end='\n\n\n')  
-print("a =", a, sep='0', end='$$$$$')  
-Output:
-
-a =dddd10
-
-
-a =010$$$$$
-In the first print() statement, we use the sep and end arguments. The given object is printed just after the sep values. The value of end parameter printed at the last of given object. As we can see that, the second print() function printed the result after the three black lines.
-
-Taking Input to the User
-Python provides the input() function which is used to take input from the user. Let's understand the following example.
-
-Example -
-
-name = input("Enter a name of student:")  
-print("The student name is: ", name)  
-Output:
-
-Enter a name of student: Devansh
-The student name is:   Devansh
-By default, the input() function takes the string input but what if we want to take other data types as an input.
-
-If we want to take input as an integer number, we need to typecast the input() function into an integer.
-
-For example -
-
-Example -
-
-a  = int(input("Enter first number: "))  
-b = int(input("Enter second number: "))  
-  
-print(a+b)  
-Output:
-
-Enter first number: 50
-Enter second number: 100
-150
-We can take any type of values using input() function.
-
-Python Operators
-Operators are the symbols which perform various operations on Python objects. Python operators are the most essential to work with the Python data types. In addition, Python also provides identify membership and bitwise operators. We will learn all these operators with the suitable example in following tutorial.
-
-Python Operators
-Python Conditional Statements
-Conditional statements help us to execute a particular block for a particular condition. In this tutorial, we will learn how to use the conditional expression to execute a different block of statements. Python provides if and else keywords to set up logical conditions. The elif keyword is also used as conditional statement.
-
-Python if..else statement
-Python Loops
-
-Sometimes we may need to alter the flow of the program. The execution of a specific code may need to be repeated several numbers of times. For this purpose, the programming languages provide various types of loops capable of repeating some specific code several times. Consider the following tutorial to understand the statements in detail.
-
-Python Loops
-Python For Loop
-Python While Loop
-Python Data Structures
-Data structures are referred which can hold some data together or we say that they are used to store the data in organized way. Python provides built-in data structures such as list, tuple, dictionary, and set. We can perform complex tasks using data structures.
-
-Python List
-Python list holds the ordered collection of items. We can store a sequence of items in a list. Python list is mutable which means it can be modified after its creation. The items of lists are enclosed within the square bracket [] and separated by the comma. Let's see the example of list.
-
-L1 = ["John", 102, "USA"]      
-L2 = [1, 2, 3, 4, 5, 6]     
-If we try to print the type of L1, L2, and L3 using type() function then it will come out to be a list.
-
-print(type(L1))    
-print(type(L2))    
-Output:
-
-<class 'list'>
-<class 'list'>
-To learn more about list, visit the following tutorial.
-
-Python List
-Python List Functions
-Python Tuple
-Python Tuple is used to store the sequence of immutable Python objects. The tuple is similar to lists since the value of the items stored in the list can be changed, whereas the tuple is immutable, and the value of the items stored in the tuple cannot be changed.
-
-Tuple can be defined as follows
-
-Example -
-
-tup = ("Apple", "Mango" , "Orange" , "Banana")  
-print(type(tup))  
-print(tup)  
-Output:
-
-<class 'tuple'>
-('Apple', 'Mango', 'Orange', 'Banana')
-If we try to add new to the tuple, it will throw an error.
-
-
-Example -
-
-tup = ("Apple", "Mango" , "Orange" , "Banana")  
-  
-tup[2] = "Papaya"  
-print(tup)  
-Output:
-
-Traceback (most recent call last):
-  File "C:/Users/DEVANSH SHARMA/PycharmProjects/Hello/gamewithturtle.py", line 3, in 
-    tup[2] = "Papaya"
-TypeError: 'tuple' object does not support item assignment
-The above program throws an error because tuples are immutable type. To learn more about tuple, visit the Python Tuples.
-
-Python Tuple
-Python String
-Python string is a sequence of characters. It is a collection of the characters surrounded by single quotes, double quotes, or triple quotes. It can also define as collection of the Unicode characters. We can create a string as follows.
-
-Example -
-
-# Creating string using double quotes  
-str1 = "Hi Python"  
-print(str1)  
-# Creating string using single quotes  
-str1 = 'Hi Python'  
-print(str1)  
-# Creating string using triple quotes  
-str1 = '''Hi Python'''  
-print(str1)  
-Output:
-
-Hi Python
-Hi Python
-Hi Python
-Python doesn't support the character data-type. A single character written as 'p' is treated as a string of length 1.
-
-Stings are also immutable. We can't change after it is declared. To learn more about the string, visit the following tutorial.
-
-Python Strings
-Python String Method
-Dictionaries
-Python Dictionary is a most efficient data structure and used to store the large amount of data. It stores the data in the key-value pair format. Each value is stored corresponding to its key.
-
-Keys must be a unique and value can be any type such as integer, list, tuple, etc.
-
-It is a mutable type; we can reassign after its creation. Below is the example of creating dictionary in Python.
-
-Example -
-
-employee = {"Name": "John", "Age": 29, "salary":250000,"Company":"GOOGLE"}      
-print(type(employee))      
-print("printing Employee data .... ")      
-print(employee)  
-Output:
-
-<class 'dict'>
-Printing Employee data .... 
-{'Name': 'John', 'Age': 29, 'salary': 250000, 'Company': 'GOOGLE'}
-The empty curly braces {} are used to create empty dictionary. To learn more, visit the complete tutorial of the dictionary.
-
-Python Dictionary
-Python Dictionary Methods
-Python Sets
-A Python set is a collection of unordered elements. Each element in set must be unique and immutable. Sets are mutable which means we can modify anytime throughout the program. Let's understand the example of creating set in Python.
-
-Example -
-
-# Creating Set  
-Month = {"January", "February", "March", "April", "May", "June", "July"}  
-print(Month)  
-print(type(Month))  
-Output:
-
-{'March', 'July', 'April', 'May', 'June', 'February', 'January'}
-<class 'set'>
-To get the more information about sets, visit the following resources.
-
-Python Sets
-Python Set Methods
-Python Functional Programming
-This section of Python tutorial defines some important tools related to functional programming such as lambda and recursive functions. These functions are very efficient in accomplishing the complex tasks. We define a few important functions, such as reduce, map, and filter. Python provides the functools module that includes various functional programming tools. Visit the following tutorial to learn more about functional programming.
-
-Python Function
-Python map() Function
-Python filter() Function
-Python reduce() Function
-Python functool Module
-Python Lambda Function
-Python File I/O
-Files are used to store data in a computer disk. In this tutorial, we explain the built-in file object of Python. We can open a file using Python script and perform various operations such as writing, reading, and appending. There are various ways of opening a file. We are explained with the relevant example. We will also learn to perform read/write operations on binary files.
-
-Python File I/O
-Python Modules
-Python modules are the program files that contain a Python code or functions. There are two types of module in the Python - User-define modules and built-in modules. A module that the user defines, or we can say that our Python code saved with .py extension, is treated as a user-define module.
-
-Built-in modules are predefined modules of Python. To use the functionality of the modules, we need to import them into our current working program.
-
-Python Modules
-Python Exceptions
-An exception can be defined as an unusual condition in a program resulting in the interruption in the flow of the program.
-
-Whenever an exception occurs, the program stops the execution, and thus the further code is not executed. Therefore, an exception is the run-time errors that are unable to handle to Python script. An exception is a Python object that represents an error.
-
-Python Exceptions
-Python CSV
-A csv stands for "comma separated values", which is defined as a simple file format that uses specific structuring to arrange tabular data. It stores tabular data such as spreadsheet or database in plain text and has a common format for data interchange. A csv file opens into the excel sheet, and the rows and columns data define the standard format. Visit the following tutorial to learn the CSV module in detail.
-
-Python Read CSV File
-Python Write CSV File
-Python Sending Mail
-We can send or read a mail using the Python script. Python's standard library modules are useful for handling various protocols such as PoP3 and IMAP. We will learn how to send a mail with the popular email service SMTP from a Python script.
-
-Python Sending Emails
-Python Magic Methods
-Python magic method is defined as the special method which adds "magic" to a class. It starts and ends with double underscores, for example, _init_ or _str_.
-
-The built-in classes define many magic methods. The dir() function can be used to see the number of magic methods inherited by a class. It has two prefixes and suffix underscores in the method name.
-
-Python Magic Methods
-Python Oops Concepts
-Everything in Python is treated as an object including integer values, floats, functions, classes, and none. Apart from that, Python supports all oriented concepts. Below is the brief introduction of oops concepts of Python.
-
-Classes and Objects - Python classes are the blueprint of the object. An object is a collection of data and method that act on the data.
-Inheritance - An inheritance is a technique where one class inherits the properties of other classes.
-Constructor - Python provides a special method __init__() which is known as a constructor. This method is automatically called when an object is instantiated.
-Data Member - A variable that holds data associated with a class and its objects.
-To read the oops concept in detail, visit the following resources.
-
-Python Oops Concepts
-Python Object and classes
-Python Constructor
-Python Inheritance
-Python Polymorphism
-Python Advance Topics
-Python includes many advance and useful concepts that help the programmer to solve the complex tasks. These concepts are given below.
-
-Python Iterator
-An iterator is simply an object that can be iterated upon. It returns one object at a time. It can be implemented using the two special methods, __iter__() and __next__().
-
-To learn more about the iterators visit our Python Iterators tutorial.
-
-Python Generators
-The Generators are an easiest way of creating Iterators. To learn more about, visit our Python Generators tutorial.
-
-Python Decorators
-These are used to modify the behavior of the function. Decorators provide the flexibility to wrap another function to expand the working of wrapped function, without permanently modifying it.
-
-To learn more about, visit the Python Decorators tutorial.
-
-Python Database Connections
-We can use various databases along with Python. You can learn the full tutorial to visit below resources. Python DBI-API acclaims standard sets of functionality to be included in the database connectivity modules for respective RDBMS products. We explain all important database connectivity using Python DBI-API.
-
-Python MySQL
-Environment Setup
-
-Database Connection
-
-Creating New Database
-
-Creating Tables
-
-Insert Operation
-
-Read Operation
-
-Update Operation
-
-Join Operation
-
-Performing Transactions
-
-Python MongoDB
-Python MongoDB
-
-Python SQLite
-Python SQLite
-
-Python CGI
-Python CGI stands for "Common Gateway Interface", which is used to define how to exchange information between the webserver and a custom Python scripts. The Common Gateway Interface is a standard for external gateway programs to interface with the server, such as HTTP Servers. To learn more about Python CGI, visit the following tutorial.
-
-Python CGI
-Prerequisite
-Before learning Python, you must have the basic knowledge of programming concept
-  
+                    <article>
+                        <h2 style="padding-top: 2px;"> Python Tutorial | Python Programming Language</h2>
+
+                        <p>
+                            Python tutorial provides basic and advanced concepts of Python. Our Python tutorial is
+                            designed for beginners and professionals.</p>
+                        <p>
+                            Python is a simple, general purpose, high level, and object-oriented programming language.
                         </p>
-                    </atricle>
-                </div>
+                        <p>
+                            Python is an interpreted scripting language also. Guido Van Rossum is known as the founder
+                            of Python programming.</p>
+                        <p>
+                            Our Python tutorial includes all topics of Python Programming such as installation, control
+                            statements, Strings, Lists, Tuples, Dictionary, Modules, Exceptions, Date and Time, File
+                            I/O, Programs, etc. There are also given Python interview questions to help you better
+                            understand Python Programming.
+                            Play Video</p>
+                        <p>
+                            What is Python
+                            Python is a general purpose, dynamic, high-level, and interpreted programming language. It
+                            supports Object Oriented programming approach to develop applications. It is simple and easy
+                            to learn and provides lots of high-level data structures.</p>
+                        <p>
+                            Python is easy to learn yet powerful and versatile scripting language, which makes it
+                            attractive for Application Development.</p>
+                        <p>
+                            Python's syntax and dynamic typing with its interpreted nature make it an ideal language for
+                            scripting and rapid application development.</p>
+
+                        <p>
+                            Python is a general-purpose, high-level, and interpreted programming language. It was
+                            created by Guido van Rossum and first released in 1991. Python is known for its simplicity
+                            and readability, which makes it easy to learn and use. It supports multiple programming
+                            paradigms, including object-oriented, imperative, and functional programming styles.
+                        </p>
+                        <h2>Key Features of Python</h2>
+                        
+                        <ul >
+                            <li>Easy to use and learn: Python has a clean and simple syntax, making it easy for
+                                beginners to understand and write code.</li>
+                            <li>Interpreted language: Python code is executed line by line, without the need for
+                                compilation, which makes the development process faster.</li>
+                            <li>Object-oriented: Python supports object-oriented programming, allowing you to create and
+                                use classes and objects to organize and structure your code.</li>
+                            <li>Large standard library: Python comes with a vast collection of modules and libraries,
+                                providing ready-to-use functions and tools for various tasks, such as working with
+                                files, networking, and web development.</li>
+                            <li>Cross-platform: Python code can run on different operating systems, including Windows,
+                                macOS, and Linux.</li>
+                            <li>Extensible: You can extend Python by creating your own modules and packages or by
+                                integrating existing modules written in other programming languages.</li>
+                        </ul>
+                        <h2>Usage of Python</h2>
+                        <p>
+                            Python is widely used in various domains, including web development, data science, machine
+                            learning, artificial intelligence, scientific computing, and automation. It has a large and
+                            active community of developers, who contribute to its growth by creating libraries,
+                            frameworks, and tools.
+                        </p>
+                        <h2>Getting Started with Python</h2>
+                        <p>
+                            To get started with Python, you need to install Python on your system and set up a
+                            development environment. Once you have Python installed, you can write and run Python code
+                            using a text editor or an integrated development environment (IDE). There are many online
+                            resources, tutorials, and documentation available to help you learn Python and its various
+                            libraries and frameworks.
+                        </p>
+                        <p>
+                            Overall, Python is a versatile and powerful programming language that is widely used for a
+                            wide range of applications.
+                        </p>
+
+                        </atricle>
             </div>
-        </div>  
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>

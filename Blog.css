@@ -1,7 +1,12 @@
+body {
+    background-color: aliceblue;
+}
 .blog{
-    background-color:aliceblue;
+    background-color:aqua;
     padding: 10px;
     margin: 5px;
+    width: 80%;
+    margin: auto;
 }
 .blog h1{
     text-align: center;
@@ -9,6 +14,7 @@
 }
 .blog p{
     padding: 10px;
+    text-align: justify;
 }
 .btn{
     margin: 10px;

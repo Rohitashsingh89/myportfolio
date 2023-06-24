@@ -1,9 +1,17 @@
+body {
+    background-color: aliceblue;
+}
+.myintro {
+    width: 80%;
+    margin: auto;
+}
 .myintro h1{
     text-align: center;
     text-decoration: underline;
 }
 .myintro p{
     margin: 20px;
+    text-align: justify;
 }
 .myintro{
     padding-left: 20px;
@@ -11,4 +19,12 @@
 .container{
     width: 100%;
     margin-top: 4rem;
+}
+
+@media screen and (max-width: 400px ) {
+    .myintro {
+        width: 100%;
+        margin: 0px;
+    }
+    
 }
