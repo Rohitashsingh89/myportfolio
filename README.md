@@ -1,7 +1,7 @@
 # myportfolio
 This is a portfolio website 
 # visit now
-https://cheerful-platypus-57f55d.netlify.app/index.html
+[portfolio](https://rohitashportfolio.netlify.app/)
 # Technology used
 
 - HTML
